@@ -7,8 +7,6 @@ C'est le début d'une série de petit maquette sous forme de site, applications,
 Mon but est de vous faire voir à travers les yeux d'une adolescente racisé avec un style extravagant,accro à la programmation et au monde de la culture informatique avec des goûts qui remettent en question son style au final.
 
 [![demo-luther.gif](https://i.postimg.cc/QCrvt9hv/demo-luther.gif)](https://postimg.cc/R6Xgp03T)
-<img src="https://i.postimg.cc/QCrvt9hv/demo-luther.gif" alt="demo" />
-
 
 ## Responsive écran 
 Téléphone : Supporter (douteux pour l'instant) + passer le doigt sur "Digital" pour avoir l'animation
