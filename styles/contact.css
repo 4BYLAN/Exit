@@ -1,0 +1,151 @@
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  height: 500px;
+  width: 350px;
+  text-align: center;
+}
+
+.photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.card-info h1 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin: 10px 0;
+}
+
+.card-info span {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+h6 {
+  text-decoration: underline;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: auto;
+}
+
+.link {
+  background-color: transparent;
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 50%;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.link:hover {
+  background-color: #007bff;
+  transform: scale(1.1);
+}
+
+.link svg {
+  width: 40px;
+  height: 40px;
+  fill: #333; 
+}
+
+.titkok svg {
+  fill: #000; 
+}
+
+.discord svg {
+  fill: #7289da; 
+}
+
+.github svg {
+  fill: #333; 
+}
+
+.snapchat svg {
+  fill: #fffc00; 
+}
+
+a:hover svg {
+  fill: #fff; 
+}
+
+@media (max-width: 768px) {
+  .card-info {
+    width: 80%; 
+    height: auto;
+    padding: 15px;
+  }
+
+  .card-info h1 {
+    font-size: 24px;
+  }
+
+  .card-info span {
+    font-size: 14px;
+  }
+
+  .photo {
+    width: 100px;
+    height: 100px;
+  }
+
+  .link svg {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .card-info {
+    width: 90%;
+    padding: 10px;
+  }
+
+  .photo {
+    width: 80px;
+    height: 80px;
+  }
+
+  .card-info h1 {
+    font-size: 22px;
+  }
+
+  .card-info span {
+    font-size: 13px;
+  }
+
+  .social {
+    gap: 10px;
+  }
+
+  .link svg {
+    width: 25px;
+    height: 25px;
+  }
+}
